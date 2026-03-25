@@ -41,7 +41,7 @@ if st.button('Predict Price'):
     Y_res = int(resolution.split('x')[1])
     ppi = ((X_res**2) + (Y_res**2))**0.5 / screen_size
 
-    # ✅ CREATE DATAFRAME (NOT ARRAY)
+    # CREATING DATAFRAME 
     query = pd.DataFrame({
         'Company': [company],
         'TypeName': [typename],
