@@ -1,11 +1,11 @@
 
 
-# 💻 Laptop Price Predictor
+#  Laptop Price Predictor
 
 A machine learning web application that predicts the price of a laptop based on its specifications such as brand, RAM, CPU, GPU, storage, screen features, etc.
 The model is trained using ensemble learning and deployed using Streamlit.
 
-# 📌 Project Overview
+#  Project Overview
 
 ## This project:
 Trains a regression model on laptop specifications
@@ -14,7 +14,7 @@ Combines multiple models using Voting Regressor and Stacking Regressor is used a
 Deploys the trained pipeline as an interactive Streamlit web app
 The predicted price is returned in Indian Rupees (₹).
 
-# 🧠 Machine Learning Approach
+#  Machine Learning Approach
 ### Models Used
 Random Forest Regressor
 Gradient Boosting Regressor
@@ -32,7 +32,7 @@ Preprocessing
 Ensemble regressor
 The entire pipeline is saved using pickle to ensure consistent preprocessing during prediction.
 
-# 🧮 Features Used
+#  Features Used
 Feature Name	Description
 Company	Laptop brand
 TypeName	Laptop type (Notebook, Ultrabook, etc.)
@@ -47,7 +47,7 @@ SSD	SSD storage (GB)
 Gpu_brand	GPU brand
 os	Operating system
 
-# 🧾 Tech Stack
+#  Tech Stack
 Python
 scikit-learn
 XGBoost
@@ -58,23 +58,23 @@ Pickle
 
 
 
-# 🚀 How to Run the Project Locally
-## 1️⃣ Clone the Repository
+#  How to Run the Project Locally
+##  Clone the Repository
 git clone https://github.com/kuldeepkp911/laptop-price-predictor-ml.git
 cd laptop-price-predictor
 
-## 2️⃣ Create Virtual Environment (recommended)
+##  Create Virtual Environment (recommended)
 python -m venv laptev
 laptev\Scripts\activate   # Windows
 
-## 3️⃣ Install Dependencies
+##  Install Dependencies
 pip install -r requirements.txt
 
-## 4️⃣ Run the Streamlit App
+##  Run the Streamlit App
 streamlit run laptop.py
 
 
-# 📂 Project Structure
+#  Project Structure
 laptop-price-predictor/
 │
 ├── laptop.py              # Streamlit application
